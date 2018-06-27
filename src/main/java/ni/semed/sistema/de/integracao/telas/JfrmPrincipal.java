@@ -41,6 +41,13 @@ public class JfrmPrincipal extends javax.swing.JFrame {
         jMenuItem8 = new javax.swing.JMenuItem();
         jMenuItem9 = new javax.swing.JMenuItem();
         jMenuItem10 = new javax.swing.JMenuItem();
+        jMenu3 = new javax.swing.JMenu();
+        jMenuItem11 = new javax.swing.JMenuItem();
+        jMenuItem12 = new javax.swing.JMenuItem();
+        jMenuItem13 = new javax.swing.JMenuItem();
+        jMenuItem14 = new javax.swing.JMenuItem();
+        jMenuItem15 = new javax.swing.JMenuItem();
+        jMnSair = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -83,6 +90,28 @@ public class JfrmPrincipal extends javax.swing.JFrame {
         jMenu2.add(jMenuItem10);
 
         jMenuBar1.add(jMenu2);
+
+        jMenu3.setText("Aluno");
+
+        jMenuItem11.setText("Endreço");
+        jMenu3.add(jMenuItem11);
+
+        jMenuItem12.setText("NE");
+        jMenu3.add(jMenuItem12);
+
+        jMenuItem13.setText("Genero");
+        jMenu3.add(jMenuItem13);
+
+        jMenuItem14.setText("Idade");
+        jMenu3.add(jMenuItem14);
+
+        jMenuItem15.setText("Lotação");
+        jMenu3.add(jMenuItem15);
+
+        jMenuBar1.add(jMenu3);
+
+        jMnSair.setText("Sair");
+        jMenuBar1.add(jMnSair);
 
         setJMenuBar(jMenuBar1);
 
@@ -140,9 +169,15 @@ public class JfrmPrincipal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem10;
+    private javax.swing.JMenuItem jMenuItem11;
+    private javax.swing.JMenuItem jMenuItem12;
+    private javax.swing.JMenuItem jMenuItem13;
+    private javax.swing.JMenuItem jMenuItem14;
+    private javax.swing.JMenuItem jMenuItem15;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
@@ -151,6 +186,7 @@ public class JfrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem7;
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
+    private javax.swing.JMenu jMnSair;
     private javax.swing.JToolBar jToolBar1;
     // End of variables declaration//GEN-END:variables
 }
