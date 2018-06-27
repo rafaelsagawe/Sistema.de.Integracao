@@ -18,6 +18,18 @@ public class JrmLogin extends javax.swing.JFrame {
         initComponents();
     }
 
+    // Provisorio
+    private void provisorioEntra(){
+        JfrmPrincipal prin = new JfrmPrincipal();
+        prin.setVisible(true);
+        this.setVisible(false);
+    }
+    
+    // Cancelar
+    private void cancelar(){
+        dispose();
+    }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -45,6 +57,11 @@ public class JrmLogin extends javax.swing.JFrame {
         });
 
         jbtnCancelar.setText("jButton2");
+        jbtnCancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtnCancelarActionPerformed(evt);
+            }
+        });
 
         jtxtSenha.setText("jTextField1");
         jtxtSenha.setBorder(javax.swing.BorderFactory.createTitledBorder("teste"));
@@ -102,8 +119,18 @@ public class JrmLogin extends javax.swing.JFrame {
 
     private void jbtnOkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnOkActionPerformed
         // TODO add your handling code here:
+        provisorioEntra();
     }//GEN-LAST:event_jbtnOkActionPerformed
 
+    private void jbtnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtnCancelarActionPerformed
+        // TODO add your handling code here:
+        cancelar();
+    }//GEN-LAST:event_jbtnCancelarActionPerformed
+
+    
+    
+    
+    
     /**
      * @param args the command line arguments
      */
